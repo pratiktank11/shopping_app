@@ -132,6 +132,7 @@ class _DetailsState extends State<Details> {
                         Row(
                           children: [
                             Expanded(
+                              flex: 3,
                               child: Container(
                                 height: 25,
                                 margin: EdgeInsets.only(left: 20,top: 20),
@@ -140,7 +141,7 @@ class _DetailsState extends State<Details> {
                                 ),
                                 child: Text(
                                   snapshot.data![widget.indexOfProduct]["Name"],
-                                  style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20,color: Colors.black),
+                                  style: TextStyle(fontWeight: FontWeight.bold,fontSize: 17,color: Colors.black),
                                 ),
                               ),
                             ),

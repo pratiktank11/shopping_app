@@ -147,7 +147,7 @@ class FirstPage extends StatelessWidget {
                                   child: Container(
                                     child: Image.network(
                                         snapshot.data![index]['Image'].toString()),
-                                    height: 150,
+                                    height: 100,
                                   ),
                                   // Within the `FirstRoute` widget
                                   onTap: () {
@@ -156,6 +156,7 @@ class FirstPage extends StatelessWidget {
                                   },
                                 ),
                                 Expanded(
+                                  flex:2,
                                   child: Container(
                                     padding: const EdgeInsets.all(3.0),alignment: Alignment.center,
                                     child: Text(snapshot.data![index]['Name'].toString(),
