@@ -139,7 +139,7 @@ class BrandWisePhonesApple extends StatelessWidget{
                   ),
                 ),
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Details()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => Details(0)));
 
                 },
               ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shopping_app/brandwisephone_samsung.dart';
+import 'package:shopping_app/gridViewDesign.dart';
 
 import 'brandwisephones_apple.dart';
 import 'details.dart';
